@@ -45,7 +45,6 @@ if !exists('g:vscode')
   Plug 'tpope/vim-dadbod'
   Plug 'easymotion/vim-easymotion'
   Plug 'tpope/vim-fugitive'
-  Plug 'ryanoasis/vim-devicons'
   Plug 'mhinz/vim-startify'
   Plug 'ap/vim-css-color'
   Plug 'tpope/vim-fugitive'
@@ -56,6 +55,7 @@ if !exists('g:vscode')
   Plug 'joshdick/onedark.vim'
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
+  Plug 'ryanoasis/vim-devicons'
   Plug 'whatyouhide/vim-gotham'
 endif
 call plug#end()
