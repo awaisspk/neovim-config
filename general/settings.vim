@@ -2,7 +2,6 @@
 let g:mapleader = "\<Space>"
 set nocompatible
 filetype plugin on
-runtime macros/matchit.vim
 
 if !exists('g:vscode')
   syntax enable                           " Enables syntax highlighing

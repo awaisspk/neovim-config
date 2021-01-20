@@ -15,7 +15,6 @@ inoremap <expr> <CR>       pumvisible() ? "\<C-y>" : "\<CR>"
 inoremap <expr> <C-j>      pumvisible() ? "\<C-n>" : "\<Down>"
 inoremap <expr> <C-k>      pumvisible() ? "\<C-p>" : "\<Up>"
 
-nnoremap <C-b> :NERDTreeToggle<CR>
 if !exists('g:vscode')
   " nnoremap J :%DB mysql://awais@localhost<CR>
   nnoremap L :bnext<CR>
